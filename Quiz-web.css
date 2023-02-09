@@ -1,0 +1,76 @@
+body{
+    background: url(pic/Blue\ Frost.png);
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main{
+    width: 300px;
+    height: 400px;
+    padding: 40px;
+}
+.Quiz-questions{
+    border: 2px solid white;
+    border-radius: 10px;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    background: linear-gradient(to right, rgba(0,0,0,0.5),rgba(0,0,0,0.5));
+}
+.input-space{
+   margin-left: 50px;
+   margin-top: 20px;
+   outline: none;
+   padding: 10px;
+   border-radius: 10px;
+   border-radius: none;
+}
+.hide{
+    display: none;
+}
+.sco{
+    font-size: 20px;
+    border: 1px solid white;
+    padding: 10px;
+    background-color: white;
+    border-radius: 10px;
+}
+.back{
+    border: none;
+    padding: 5px;
+    border-radius: 7px;
+    color: white;
+    background-color: red;
+    display: none;
+}
+.back:hover{
+    background-color: white;
+    color: black;
+    padding: 6px;
+
+}
+#buttons{
+    margin-top: 30px;
+    display: flex;
+    justify-content: space-between;
+    margin-left: 20px;
+}
+.btn{
+    background-color: red;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 6px;
+}
+.btn:hover{
+    background-color: white;
+    color: red;
+    font-weight: 400;
+    padding: 8px;
+}
+.placeholder{
+    color: red;
+}
